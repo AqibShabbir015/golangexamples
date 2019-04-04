@@ -21,6 +21,6 @@ func Encrypt(sliceToConcat []byte, ceaserCount int) {
 	fmt.Println("Encrypted String is ", encryptString)
 }
 
-func EZGreetings(name string) {
-	print(greetings.PrintGreetings(name))
+func EZGreetings(name string) string {
+	return greetings.PrintGreetings(name)
 }
